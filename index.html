@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initian-scale=1.0">
+    <title>Engr Sam - Friend Request</title>
+    <style>
+      body {
+background: #010600f8;
+min-height: 100vh;
+margin: 0;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+}
+
+.form-container {
+background: #050535;
+padding: 30px;
+border-radius: 10px;
+width: 90%;
+max-width: 400px;
+}
+
+h1 {
+text-align: center;
+color: #f5a623;
+}
+
+label {
+display: block;
+margin-top: 15px;
+}
+
+input, textarea, select {
+width: 100%;
+padding: 12px;
+margin-top: 5px;
+border-radius: 5px;
+border: none;
+box-sizing: border-box;
+}
+
+.send-btn {
+width: 100%;
+background: #ff9500;
+color: white;
+border: none;
+padding: 15px;
+font-size: 18px;
+font-weight: bold;
+border-radius: 10px;
+margin-top: 15px;
+cursor: pointer;
+display: block;
+text-align: center;
+box-sizing: border-box;
+      }
+      .logo-area {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-area img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f5a623;
+    padding: 3px;
+    background: white;
+}
+
+.logo-area h3 {
+    color: #f5a623;
+    margin: 10px 0 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.logo-area p {
+    color: #aaa;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="logo-area">
+    <img src="Samuel.jpg" alt="ENGR SAM Logo">
+    <h1>ENGR SAM</h1>
+    <p>OFFICIAL FRIENDSHIP APPLICATION</p>
+      </div>
+      <h1>ENGR SAM FRIEND REQUEST</h1>
+
+      <!--FORM STARTS HERE - THIS IS THE CORRECT PLACE -->
+      <form action="https://formsubmit.co/deengrmisasam@gmail.com" method="POST">
+           <input type="hidden" name="captcha" value="false">
+
+        <label>Full Name:</label>
+        <input type="text" name="Full Name" placeholder="Enter your name..." required>
+        <label>How old are you</label>
+        <input type="text" name="How old are you" placeholder="Enter your age..." required>
+        <label>Why you want to be my Friend?</label>
+        <textarea name="Why you want to be my Friend" placeholder="Tell me ...." rows="2" required></textarea>
+        <label>How long have you know me</label>
+        <select name="How long have you know me befor">
+         <option>Just now</option>
+         <option>Today</option>
+         <option>This week</option>
+         <option>last week</option>
+         <option>This month</option>
+         <option>last month</option>
+         <option>This year</option>
+         <option>last year</option>
+         <option>A year +</option>
+         <option>I have forget sef</option>
+        </select>
+        <label>Where are you from</label>
+        <input type="text" name="Your address" placeholder="Enter your address..." required>
+        <p><h6>Tap the Send Request button to Send 👇</h6></p>
+          <button type="submit" class="send-btn">Send Request</button>
+      </form>
+      <!--FORM ENDE HERE-->
+      <h6>this site is just Powered by ENGR SAM UZOH</h6>
+    </div>
+  </body>
+</html>
